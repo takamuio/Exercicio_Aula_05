@@ -22,12 +22,8 @@ public class ProgramaLivro {
         System.out.println("Digite o Preço do livro: ");
         l1.setPreco(ler.nextDouble());
 
-        System.out.println("== Dados do Livro ==");
-        System.out.println("Titulo: " + l1.getTitulo());
-        System.out.println("Autor: " + l1.getAutor());
-        System.out.println("Genero: " + l1.getGenero());
-        System.out.println("Ano de lançamento: " + l1.getAno());
-        System.out.println("preço: " + l1.getPreco());
+        System.out.println("***********************");
+        System.out.println(l1);
         System.out.println(l1.vereficarPreco());
         
         
