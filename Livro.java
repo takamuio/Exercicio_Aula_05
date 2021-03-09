@@ -70,7 +70,15 @@ public class Livro {
             resposta = "Este livro não tem desconto";
         }
         return resposta;
-
     }
 
+    @Override
+    public String toString() {
+        return "== Dados do livro ==" + "\n" +
+                "Titulo do livro: " + titulo + "\n" +
+                "Autor do livro: " + autor + "\n" +
+                "Genero do livro: " + genero + "\n" +
+                "Ano de lançamento: " + ano + "\n" +
+                "Preço: " + preco;
+    }
 }
